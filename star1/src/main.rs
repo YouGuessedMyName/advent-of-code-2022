@@ -14,11 +14,11 @@ fn main() {
 
 /* Read a single elf, i.e. read lines until an empty one is found, then return the sum
 
-Return: amount of calories of this elf.
+Return: amount of calories of this elf, if it encounters "end" then return -1.
 
 Lire un seul elfe, soit lire des lignes jusqu'à ce que une ligne vide soit trouver, puis return la somme
 
-Return: nobre de calories de cet elfe.
+Return: nobre de calories de cet elfe, si "end" est lu, retourne -1.
 */
 fn read_elf() -> i32 {
     let mut calorie_count: i32 = 0;
